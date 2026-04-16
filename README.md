@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # المدونة القانونية الجزائرية 🇩🇿
 
 منصة شاملة للقوانين الجزائرية، المقالات القانونية، ومتجر الكتب. مشروع مفتوح المصدر يهدف إلى توفير مصدر موثوق للمعلومات القانونية في الجزائر.
@@ -56,19 +55,16 @@
 - حساب Google Cloud (لـ Google Sheets)
 
 ### 1. استنساخ المشروع
-```bash
+bash
 git clone https://github.com/yourusername/algerian-legal-blog.git
 cd algerian-legal-blog
-```
 
-### 2. إعداد الـ Backend
-```bash
+bash
 cd legal-blog-backend
 npm install
-```
 
 إنشاء ملف `.env`:
-```env
+env
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 PORT=5000
@@ -76,32 +72,27 @@ GOOGLE_SHEETS_ID=your_google_sheet_id
 GOOGLE_SERVICE_ACCOUNT_EMAIL=your_service_account_email
 GOOGLE_PRIVATE_KEY=your_private_key
 FRONTEND_URL=http://localhost:5173
-```
 
 تشغيل الـ Backend:
-```bash
+bash
 npm run dev
-```
 
 ### 3. إعداد الـ Frontend
-```bash
+
+bash
 cd ../app
 npm install
-```
 
 إنشاء ملف `.env`:
-```env
-VITE_API_URL=http://localhost:5000/api
-```
 
-تشغيل الـ Frontend:
-```bash
+env
+VITE_API_URL=http://localhost:5000/api
+
+bash
 npm run dev
-```
 
 ## 📁 هيكل المشروع
 
-```
 algerian-legal-blog/
 ├── app/                    # Frontend (React + Vite)
 │   ├── src/
@@ -123,7 +114,6 @@ algerian-legal-blog/
 │   └── uploads/            # مجلد رفع الملفات
 │
 └── README.md
-```
 
 ## 🌐 النشر
 
@@ -165,13 +155,10 @@ algerian-legal-blog/
 - فيسبوك: [@legalblogdz](https://facebook.com/legalblogdz)
 - تويتر: [@legalblogdz](https://twitter.com/legalblogdz)
 
----
-
 <div align="center">
   <p>صنع ب❤️ في الجزائر</p>
   <p>🇩🇿</p>
 </div>
-=======
 # اسم المشروع (موقعي الشخصي الأول)
 
 وصف قصير للمشروع: هذا المشروع عبارة عن صفحة تعريفية بسيطة قمت ببنائها لتعلم أساسيات الـ HTML و CSS.
@@ -185,12 +172,3 @@ algerian-legal-blog/
 * HTML5
 * CSS3
 * GitHub Pages (للاستضافة)
-
-## 📸 صورة من المشروع
-![وصف الصورة](رابط_صورة_المشروع_هنا)
-
-## 📝 كيف يمكنك تشغيل المشروع؟
-1. قم بتحميل المشروع (Download ZIP).
-2. افتح ملف `index.html` في متصفحك.
-
->>>>>>> 67117400e0391f4014286ce629dcfc6566de1a9b
