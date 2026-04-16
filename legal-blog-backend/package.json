@@ -2,7 +2,13 @@
   "name": "legal-blog-backend",
   "version": "1.0.0",
   "description": "Backend API for Algerian Legal Blog - A comprehensive legal platform featuring articles, laws library, and book store.",
-  "main": "index.js",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "accepts": "^2.0.0",
     "append-field": "^1.0.0",
@@ -63,16 +69,6 @@
     "mongoose": "^9.4.1",
     "multer": "^2.1.1"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
-  "type": "commonjs"
-  
-  "scripts": {
-  "start": "node src/index.js",
-  "dev": "nodemon src/index.js"
-}
+  "license": "ISC"
 }
