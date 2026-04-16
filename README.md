@@ -56,11 +56,11 @@
 
 ### 1. استنساخ المشروع
 bash
-git clone https://github.com/yourusername/algerian-legal-blog.git
-cd algerian-legal-blog
+git clone https://github.com/alpha24092019/services-conseil.git
+cd services-conseil-blog
 
 bash
-cd legal-blog-backend
+cd services-conseil-blog-backend
 npm install
 
 إنشاء ملف `.env`:
@@ -93,7 +93,7 @@ npm run dev
 
 ## 📁 هيكل المشروع
 
-algerian-legal-blog/
+services-conseil-blog/
 ├── app/                    # Frontend (React + Vite)
 │   ├── src/
 │   │   ├── components/     # المكونات
@@ -104,7 +104,7 @@ algerian-legal-blog/
 │   │   └── utils/          # دوال مساعدة
 │   └── public/
 │
-├── legal-blog-backend/     # Backend (Node.js + Express)
+├── services-conseil-backend/     # Backend (Node.js + Express)
 │   ├── src/
 │   │   ├── controllers/    # Controllers
 │   │   ├── models/         # Mongoose Models
@@ -151,7 +151,7 @@ algerian-legal-blog/
 
 ## 📞 التواصل
 
-- البريد الإلكتروني: contact@legalblog.dz
+- البريد الإلكتروني: zonetch26@gmail.com
 - فيسبوك: [@legalblogdz](https://facebook.com/legalblogdz)
 - تويتر: [@legalblogdz](https://twitter.com/legalblogdz)
 
